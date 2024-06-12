@@ -1,0 +1,48 @@
+.btn-33 {
+  &:link,
+  &:visited {
+    color: $cl1;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s;
+  }
+
+  &:hover,
+  &:active {
+    color: $cd2;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -100%;
+    background: $c3;
+    transition: 0.2s;
+  }
+
+  &:hover:before {
+    animation: btn33 0.5s linear forwards;
+  }
+
+  @keyframes btn33 {
+    0% {
+      left: -100%;
+      height: 0.4rem;
+    }
+    50% {
+      left: 0;
+      height: 0.4rem;
+    }
+    100% {
+      left: 0;
+      height: 100%;
+      z-index: -1;
+    }
+  }
+}

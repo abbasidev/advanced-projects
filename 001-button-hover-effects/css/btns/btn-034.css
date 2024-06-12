@@ -1,0 +1,19 @@
+.btn-34 {
+  &:link,
+  &:visited {
+    color: $cl1;
+    background-image: linear-gradient(25deg, $c4 0%, $c9 100%);
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.2s;
+    border-radius: 1rem;
+  }
+
+  &:hover {
+    letter-spacing: 0.3rem;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

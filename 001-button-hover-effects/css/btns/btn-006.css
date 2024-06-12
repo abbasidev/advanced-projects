@@ -1,0 +1,35 @@
+.btn-06 {
+  &:link,
+  &:visited {
+    color: $c6;
+    border: 0.2rem solid $c6;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &:hover,
+  &:active {
+    color: $cd2;
+    box-shadow: 0 0 2rem $c6;
+  }
+
+  &:before {
+    content: "";
+    background: $c6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: all 0.2s;
+    transform: translateX(100%);
+  }
+
+  &:hover:before {
+    transform: translateX(0);
+  }
+}

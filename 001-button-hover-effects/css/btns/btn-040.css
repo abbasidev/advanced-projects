@@ -1,0 +1,43 @@
+.btn-40 {
+  &:link,
+  &:visited {
+    color: $cd1;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    transition: all 0.3s;
+    background-image: linear-gradient(
+      to right,
+      $c1,
+      $c1 16.65%,
+      $c2 16.65%,
+      $c2 33.3%,
+      $c3 33.3%,
+      $c3 49.95%,
+      $c4 49.95%,
+      $c4 66.6%,
+      $c7 66.6%,
+      $c7 83.25%,
+      $c6 83.25%,
+      $c6 100%,
+      $c1 100%
+    );
+  }
+
+  &:hover {
+    color: $cl1;
+    animation: btn40 2s linear infinite;
+    box-shadow: 0 0 2rem $cl1;
+  }
+
+  &:active {
+    opacity: 70%;
+    box-shadow: 0 0 1rem $cl1;
+  }
+
+  @keyframes btn40 {
+    to {
+      background-position: 20vh;
+    }
+  }
+}

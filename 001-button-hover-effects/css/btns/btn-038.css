@@ -1,0 +1,58 @@
+.btn-38 {
+  &:link,
+  &:visited {
+    color: $cl2;
+    border: 0.2rem solid $cl2;
+    background: linear-gradient(25deg, $c1 0%, $c2 100%);
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    animation: btn38 2s ease-in-out infinite;
+    transform: scale(1.1);
+    letter-spacing: 0.1rem;
+  }
+
+  &:active {
+    transform: scale(1);
+  }
+
+  @keyframes btn38 {
+    0% {
+      background-image: linear-gradient(25deg, $c1 0%, $c2 100%);
+    }
+    10% {
+      background-image: linear-gradient(25deg, $c2 0%, $c3 100%);
+    }
+    20% {
+      background-image: linear-gradient(25deg, $c3 0%, $c4 100%);
+    }
+    30% {
+      background-image: linear-gradient(25deg, $c4 0%, $c5 100%);
+    }
+    40% {
+      background-image: linear-gradient(25deg, $c5 0%, $c6 100%);
+    }
+    50% {
+      background-image: linear-gradient(25deg, $c6 0%, $c7 100%);
+    }
+    60% {
+      background-image: linear-gradient(25deg, $c7 0%, $c8 100%);
+    }
+    70% {
+      background-image: linear-gradient(25deg, $c8 0%, $c9 100%);
+    }
+    80% {
+      background-image: linear-gradient(25deg, $c9 0%, $c0 100%);
+    }
+    90% {
+      background-image: linear-gradient(25deg, $c0 0%, $c1 100%);
+    }
+    100% {
+      background-image: linear-gradient(25deg, $c1 0%, $c2 100%);
+    }
+  }
+}

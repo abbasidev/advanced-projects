@@ -1,0 +1,36 @@
+.btn-39 {
+  &:link,
+  &:visited {
+    color: $cd1;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    transition: all 0.3s;
+    background-image: linear-gradient(
+      90deg,
+      $c1 0%,
+      $c2 20%,
+      $c3 40%,
+      $c4 60%,
+      $c7 80%,
+      $c1 100%
+    );
+  }
+
+  &:hover {
+    color: $cl1;
+    animation: btn39 2s linear infinite;
+    box-shadow: 0 0 2rem $cl1;
+  }
+
+  &:active {
+    opacity: 70%;
+    box-shadow: 0 0 1rem $cl1;
+  }
+
+  @keyframes btn39 {
+    to {
+      background-position: 20vh;
+    }
+  }
+}

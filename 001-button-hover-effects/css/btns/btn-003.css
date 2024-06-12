@@ -1,0 +1,19 @@
+.btn-03 {
+  &:link,
+  &:visited {
+    color: $c3;
+    border: 0.2rem solid $c3;
+    border-radius: 1rem;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.6s;
+  }
+
+  &:hover,
+  &:active {
+    color: $cd2;
+    background: $c3;
+    box-shadow: 0 0 3rem $c3;
+    transform: rotate(360deg);
+  }
+}

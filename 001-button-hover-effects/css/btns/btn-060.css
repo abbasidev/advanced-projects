@@ -1,0 +1,19 @@
+.btn-60 {
+  &:link,
+  &:visited {
+    color: $cd2;
+    background: $c0;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    transition: all 0.3s;
+    letter-spacing: 0.5rem;
+  }
+
+  &:hover,
+  &:active {
+    color: $c0;
+    background: $cd2;
+    box-shadow: 0 0 2rem $c0;
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+  }
+}

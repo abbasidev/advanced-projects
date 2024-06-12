@@ -1,0 +1,17 @@
+.btn-37 {
+  &:link,
+  &:visited {
+    background-image: linear-gradient(to right, $c8 0%, $c4 51%, $c8 100%);
+    background-size: 200% auto;
+    color: $cd2;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 1rem;
+  }
+
+  &:hover,
+  &:active {
+    background-position: right;
+  }
+}

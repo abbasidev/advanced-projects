@@ -1,0 +1,20 @@
+.btn-54 {
+  &:link,
+  &:visited {
+    color: $c4;
+    border: 0.2rem solid $c4;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 0.8rem 1rem -0.2rem $c4;
+  }
+
+  &:active {
+    transform: translateY(-0rem);
+    box-shadow: 0 0.4rem 0.5rem -0.1rem $c4;
+  }
+}

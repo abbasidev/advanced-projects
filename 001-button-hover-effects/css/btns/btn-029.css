@@ -1,0 +1,51 @@
+.btn-29 {
+  &:link,
+  &:visited {
+    color: $c9;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    position: relative;
+    transition: all 0.4s;
+  }
+
+  &:hover,
+  &:active {
+    color: $cd2;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scaleY(2);
+    transition: 0.4s;
+    border-top: 0.2rem solid $c9;
+    border-bottom: 0.2rem solid $c9;
+  }
+
+  &:hover:before {
+    transform: scaleY(1.2);
+    opacity: 1;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0.2rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $c9;
+    transition: 0.4s;
+    transform: scale(0);
+    z-index: -1;
+  }
+
+  &:hover:after {
+    transform: scale(1);
+  }
+}

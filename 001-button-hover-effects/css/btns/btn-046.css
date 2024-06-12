@@ -1,0 +1,33 @@
+.btn-46 {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    position: relative;
+    border-radius: 5rem;
+  }
+
+  &:before {
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: $c6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5rem;
+    width: 33%;
+  }
+
+  &:hover:before {
+    background: $c6;
+    width: 100%;
+  }
+
+  span {
+    color: $cl1;
+    mix-blend-mode: lighten;
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
+  }
+}

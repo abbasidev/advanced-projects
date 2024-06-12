@@ -1,0 +1,19 @@
+.btn-04 {
+  &:link,
+  &:visited {
+    color: $c4;
+    border: 0.2rem solid $c4;
+    letter-spacing: 0.4rem;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.2s;
+  }
+
+  &:hover,
+  &:active {
+    color: $cd2;
+    background: $c4;
+    box-shadow: 0 0 3rem $c4;
+    transform: skew(20deg);
+  }
+}

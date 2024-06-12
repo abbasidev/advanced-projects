@@ -1,0 +1,22 @@
+.btn-55 {
+  &:link,
+  &:visited {
+    color: $c5;
+    border: 0.2rem solid $c5;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.2s;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem $c5;
+  }
+
+  &:hover {
+    color: $cd2;
+    background: $c5;
+    box-shadow: 0 0 1rem $c5;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

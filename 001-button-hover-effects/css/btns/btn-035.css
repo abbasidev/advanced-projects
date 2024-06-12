@@ -1,0 +1,36 @@
+.btn-35 {
+  &:link,
+  &:visited {
+    color: $c5;
+    border: 0.2rem solid $c5;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+  }
+
+  &:hover {
+    animation: btn35 0.4s linear infinite;
+  }
+
+  &:active {
+    animation: none;
+    color: $cd2;
+    background: $c5;
+  }
+
+  @keyframes btn35 {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 $c5;
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 2rem $c5;
+      text-shadow: 0 0 1rem $c5;
+    }
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 $c5;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.btn-51 {
+  &:link,
+  &:visited {
+    color: $cl1;
+    border: none;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5rem;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, $c3, $c4, $c4, $c3);
+    box-shadow: 0 0.4rem 1.5rem 0 rgba($c3, 0.75);
+  }
+
+  &:hover,
+  &:active {
+    background-position: 100% 0;
+    transition: all 0.3s ease-in-out;
+  }
+}

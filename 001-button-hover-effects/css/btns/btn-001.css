@@ -1,0 +1,18 @@
+.btn-01 {
+  &:link,
+  &:visited {
+    color: $c1;
+    border: 0.2rem solid $c1;
+    border-radius: 1rem;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.2s;
+  }
+
+  &:hover,
+  &:active {
+    color: $cd2;
+    background: $c1;
+    box-shadow: 0 0 3rem $c1;
+  }
+}

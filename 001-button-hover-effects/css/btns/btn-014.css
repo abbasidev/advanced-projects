@@ -1,0 +1,38 @@
+.btn-14 {
+  &:link,
+  &:visited {
+    color: $c4;
+    border: 0.2rem solid $c4;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &:hover,
+  &:active {
+    color: $cd2;
+    box-shadow: 0 0 2rem $c4;
+  }
+
+  &:before {
+    content: "Hello";
+    color: $cd2;
+    background: $c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s;
+    transform: translateY(-100%);
+  }
+
+  &:hover:before {
+    transform: translateX(0);
+  }
+}

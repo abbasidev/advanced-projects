@@ -1,0 +1,18 @@
+.btn-57 {
+  &:link,
+  &:visited {
+    color: $c7;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 0.1rem;
+  }
+
+  &:hover {
+    letter-spacing: 0.5rem;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

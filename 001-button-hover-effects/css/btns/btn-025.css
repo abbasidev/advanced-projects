@@ -1,0 +1,42 @@
+.btn-25 {
+  &:link,
+  &:visited {
+    color: $cd1;
+    position: relative;
+    font-size: 4rem;
+    font-weight: 900;
+    text-decoration: none;
+    -webkit-text-stroke: 0.15rem $cl1;
+    letter-spacing: 0.5rem;
+  }
+
+  &:hover,
+  &:active {
+    color: $cl1;
+    -webkit-text-stroke: 0.01rem $cd1;
+    transition: 0.4s;
+  }
+
+  &:before,
+  &:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+  }
+
+  &:hover:before {
+    color: $c4;
+    z-index: 1;
+    -webkit-text-stroke: 0.01rem $cd1;
+    transform: translate(0.4rem, -0.4rem);
+  }
+
+  &:hover:after {
+    color: $c7;
+    z-index: 2;
+    -webkit-text-stroke: 0.01rem $cd1;
+    transform: translate(0.8rem, -0.8rem);
+  }
+}

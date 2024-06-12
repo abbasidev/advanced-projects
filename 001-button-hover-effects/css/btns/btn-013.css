@@ -1,0 +1,19 @@
+.btn-13 {
+  &:link,
+  &:visited {
+    color: $c3;
+    border: 0.2rem solid $c3;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    box-shadow: 0 0 2rem $c3;
+    letter-spacing: 0.5rem;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

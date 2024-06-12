@@ -1,0 +1,69 @@
+.btn-36 {
+  &:link,
+  &:visited {
+    color: $cl2;
+    border: 0.2rem solid $cl2;
+    background: $c1;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    animation: btn36 5s ease-in-out infinite;
+    transform: scale(1.1);
+    letter-spacing: 0.1rem;
+  }
+
+  &:active {
+    transform: scale(1);
+  }
+
+  @keyframes btn36 {
+    0% {
+      box-shadow: 0 0 2rem $c1;
+      background: $c1;
+    }
+    10% {
+      box-shadow: 0 0 2rem $c2;
+      background: $c2;
+    }
+    20% {
+      box-shadow: 0 0 2rem $c3;
+      background: $c3;
+    }
+    30% {
+      box-shadow: 0 0 2rem $c4;
+      background: $c4;
+    }
+    40% {
+      box-shadow: 0 0 2rem $c5;
+      background: $c5;
+    }
+    50% {
+      box-shadow: 0 0 2rem $c6;
+      background: $c6;
+    }
+    60% {
+      box-shadow: 0 0 2rem $c7;
+      background: $c7;
+    }
+    70% {
+      box-shadow: 0 0 2rem $c8;
+      background: $c8;
+    }
+    80% {
+      box-shadow: 0 0 2rem $c9;
+      background: $c9;
+    }
+    90% {
+      box-shadow: 0 0 2rem $c0;
+      background: $c0;
+    }
+    100% {
+      box-shadow: 0 0 2rem $c1;
+      background: $c1;
+    }
+  }
+}

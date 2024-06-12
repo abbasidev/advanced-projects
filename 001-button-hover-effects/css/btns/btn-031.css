@@ -1,0 +1,45 @@
+.btn-31 {
+  &:link,
+  &:visited {
+    color: $c1;
+    border: 0.2rem solid $c1;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    color: $cd2;
+    background: $c1;
+    box-shadow: 0 0 1.6rem $c1;
+    letter-spacing: 0.2rem;
+    animation: btn31 0.3s linear;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+@keyframes btn31 {
+  20% {
+    transform: rotate(10deg);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    transform: rotate(10deg);
+  }
+
+  80% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
+}
