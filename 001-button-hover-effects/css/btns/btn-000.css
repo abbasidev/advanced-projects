@@ -27,7 +27,7 @@
   } */
 
   &:before {
-    content: "before";
+    content: "b";
     color: red;
     background: #fff;
     border-radius: 1rem;
@@ -45,7 +45,7 @@
   }
 
   &:after {
-    content: "after";
+    content: "a";
     color: blue;
     background: #fff;
     border-radius: 1rem;
