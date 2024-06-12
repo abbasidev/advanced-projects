@@ -1,7 +1,7 @@
-.btn-23 {
+.btn-023 {
   &:link,
   &:visited {
-    color: $cl1;
+    color: var(--color-primery-1);
     text-decoration: none;
     padding: 1rem 2rem;
     position: relative;
@@ -14,7 +14,7 @@
     width: 50%;
     left: -5%;
     top: -0.5rem;
-    background: $c7;
+    background: var(--color-secondary-7);
     transform: skewX(30deg);
     z-index: -1;
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -33,7 +33,7 @@
     width: 50%;
     left: 55%;
     top: 0.5rem;
-    background: $c1;
+    background: var(--color-secondary-1);
     transform: skewX(30deg);
     z-index: -1;
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);

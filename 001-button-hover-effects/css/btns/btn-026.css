@@ -1,7 +1,7 @@
-.btn-26 {
+.btn-026 {
   &:link,
   &:visited {
-    color: $c6;
+    color: var(--color-secondary-6);
     text-decoration: none;
     padding: 1rem 1.5rem;
     transition: all 0.5s;
@@ -11,14 +11,14 @@
 
   &:hover,
   &:active {
-    color: $cd2;
+    color: var(--color-primery-1);
   }
 
   span {
     position: absolute;
     width: 100%;
     height: 25%;
-    background: $c6;
+    background: var(--color-secondary-6);
     z-index: -1;
     left: 0;
     top: 0;

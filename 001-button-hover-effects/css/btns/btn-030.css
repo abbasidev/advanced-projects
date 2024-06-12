@@ -1,7 +1,7 @@
-.btn-30 {
+.btn-030 {
   &:link,
   &:visited {
-    color: $c0;
+    color: var(--color-secondary-10);
     text-decoration: none;
     padding: 1rem 2rem;
     position: relative;
@@ -15,8 +15,8 @@
     left: 0;
     width: 0.8rem;
     height: 0.8rem;
-    border-top: 0.3rem solid $c0;
-    border-left: 0.3rem solid $c0;
+    border-top: 0.3rem solid var(--color-secondary-10);
+    border-left: 0.3rem solid var(--color-secondary-10);
     transition: 0.2s;
     opacity: 0;
   }
@@ -28,8 +28,8 @@
     right: 0;
     width: 0.8rem;
     height: 0.8rem;
-    border-top: 0.3rem solid $c0;
-    border-right: 0.3rem solid $c0;
+    border-top: 0.3rem solid var(--color-secondary-10);
+    border-right: 0.3rem solid var(--color-secondary-10);
     transition: 0.2s;
     opacity: 0;
   }
@@ -42,8 +42,8 @@
     width: 0.8rem;
     height: 0.8rem;
     background: transparent;
-    border-bottom: 0.3rem solid $c0;
-    border-left: 0.3rem solid $c0;
+    border-bottom: 0.3rem solid var(--color-secondary-10);
+    border-left: 0.3rem solid var(--color-secondary-10);
     transition: 0.2s;
     opacity: 0;
   }
@@ -56,8 +56,8 @@
     width: 0.8rem;
     height: 0.8rem;
     background: transparent;
-    border-bottom: 0.3rem solid $c0;
-    border-right: 0.3rem solid $c0;
+    border-bottom: 0.3rem solid var(--color-secondary-10);
+    border-right: 0.3rem solid var(--color-secondary-10);
     transition: 0.2s;
     opacity: 0;
   }

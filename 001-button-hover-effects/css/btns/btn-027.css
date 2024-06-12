@@ -1,7 +1,7 @@
-.btn-27 {
+.btn-027 {
   &:link,
   &:visited {
-    color: $c7;
+    color: var(--color-secondary-7);
     text-decoration: none;
     padding: 1rem 1.5rem;
     transition: all 0.3s;
@@ -15,7 +15,7 @@
     left: 0;
     width: 100%;
     height: 0.2rem;
-    background: $c7;
+    background: var(--color-secondary-7);
     transform: scaleX(0);
     transition: all 0.3s;
     transform-origin: left;
@@ -28,7 +28,7 @@
     left: 0;
     width: 100%;
     height: 0.2rem;
-    background: $c7;
+    background: var(--color-secondary-7);
     transform: scaleX(0);
     transition: all 0.3s;
     transform-origin: right;
@@ -37,6 +37,6 @@
   &:hover:before,
   &:hover:after {
     transform: scaleX(1);
-    box-shadow: 0 0 0.3rem $c7;
+    box-shadow: 0 0 0.3rem var(--color-secondary-7);
   }
 }

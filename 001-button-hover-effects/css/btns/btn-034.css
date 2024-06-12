@@ -1,8 +1,12 @@
-.btn-34 {
+.btn-034 {
   &:link,
   &:visited {
-    color: $cl1;
-    background-image: linear-gradient(25deg, $c4 0%, $c9 100%);
+    color: var(--color-primery-1);
+    background-image: linear-gradient(
+      25deg,
+      var(--color-secondary-2) 0%,
+      var(--color-secondary-9) 100%
+    );
     text-decoration: none;
     padding: 1rem 1.5rem;
     transition: all 0.2s;

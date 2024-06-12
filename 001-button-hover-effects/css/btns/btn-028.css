@@ -1,7 +1,7 @@
-.btn-28 {
+.btn-028 {
   &:link,
   &:visited {
-    color: $cl2;
+    color: var(--color-primery-1);
     text-decoration: none;
     padding: 0.2rem 0.5rem;
     transition: all 0.4s;
@@ -12,7 +12,7 @@
     content: "";
     width: 0;
     height: 0.5rem;
-    background: $c7;
+    background: var(--color-secondary-1);
     position: absolute;
     top: 120%;
     left: 0;
@@ -28,7 +28,7 @@
     content: "";
     width: 0;
     height: 0.5rem;
-    background: $c4;
+    background: var(--color-secondary-7);
     position: absolute;
     top: 120%;
     right: 0;
