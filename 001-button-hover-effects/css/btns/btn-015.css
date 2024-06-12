@@ -1,8 +1,8 @@
-.btn-15 {
+.btn-015 {
   &:link,
   &:visited {
-    color: $c5;
-    border: 0.2rem solid $c5;
+    color: var(--color-secondary-5);
+    border: 0.2rem solid var(--color-secondary-5);
     text-decoration: none;
     padding: 1rem 1.5rem;
     transition: all 0.3s;
@@ -12,14 +12,14 @@
 
   &:hover,
   &:active {
-    color: $cd2;
-    box-shadow: 0 0 2rem $c5;
+    color: var(--color-primery-1);
+    box-shadow: 0 0 2rem var(--color-secondary-5);
   }
 
   &:before {
     content: "Hello";
-    color: $cd2;
-    background: $c5;
+    color: var(--color-primery-1);
+    background: var(--color-secondary-5);
     display: flex;
     align-items: center;
     justify-content: center;

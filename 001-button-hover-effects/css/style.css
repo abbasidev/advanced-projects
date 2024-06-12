@@ -11,6 +11,7 @@ for($i=10;$i -lt 100;$i++){ni btn-0$i".css"};
 div{@import url(./btns/btn-$$$.css);}*100
 */
 
+@import url(./btns/btn-000.css);
 @import url(./btns/btn-001.css);
 @import url(./btns/btn-002.css);
 @import url(./btns/btn-003.css);

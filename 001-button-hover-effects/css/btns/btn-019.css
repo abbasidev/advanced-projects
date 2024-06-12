@@ -1,8 +1,8 @@
-.btn-19 {
+.btn-019 {
   &:link,
   &:visited {
-    color: $c9;
-    border: 0.2rem solid $c9;
+    color: var(--color-secondary-9);
+    border: 0.2rem solid var(--color-secondary-9);
     text-decoration: none;
     padding: 1rem 1.5rem;
     transition: all 0.2s;
@@ -12,8 +12,8 @@
 
   &:hover,
   &:active {
-    color: $cd2;
-    box-shadow: 0 0 2rem $c9;
+    color: var(--color-primery-1);
+    box-shadow: 0 0 2rem var(--color-secondary-9);
   }
 
   &:before,
@@ -24,7 +24,7 @@
     position: absolute;
     width: 26%;
     height: 100%;
-    background: $c9;
+    background: var(--color-secondary-9);
     z-index: -1;
     transition: all 0.1s;
   }

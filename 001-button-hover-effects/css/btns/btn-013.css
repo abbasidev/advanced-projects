@@ -1,15 +1,15 @@
-.btn-13 {
+.btn-013 {
   &:link,
   &:visited {
-    color: $c3;
-    border: 0.2rem solid $c3;
+    color: var(--color-secondary-3);
+    border: 0.2rem solid var(--color-secondary-3);
     text-decoration: none;
     padding: 1rem 1.5rem;
     transition: all 0.2s;
   }
 
   &:hover {
-    box-shadow: 0 0 2rem $c3;
+    box-shadow: 0 0 2rem var(--color-secondary-3);
     letter-spacing: 0.5rem;
   }
 

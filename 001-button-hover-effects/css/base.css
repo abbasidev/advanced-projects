@@ -3,10 +3,18 @@
 :root {
   /* Colors */
   --color-primery-1: #f3f5f7;
-  --color-primery-2: #6c6c6c;
-  --color-primery-3: #1e1e1e;
-  --color-primery-4: #181818;
-  --color-primery-5: #141414;
+  --color-primery-2: #181818;
+
+  --color-secondary-1: #ef4444;
+  --color-secondary-2: #10b981;
+  --color-secondary-3: #06b6d4;
+  --color-secondary-4: #ec4899;
+  --color-secondary-5: #a855f7;
+  --color-secondary-6: #22c55e;
+  --color-secondary-7: #3b82f6;
+  --color-secondary-8: #f43f5e;
+  --color-secondary-9: #f97316;
+  --color-secondary-10: #8b5cf6;
 }
 
 * {
@@ -22,7 +30,9 @@ html {
 
 body {
   font-family: "Encode Sans", sans-serif;
-  background: var(--color-primery-4);
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  background: var(--color-primery-2);
 }
 
 .btnList {

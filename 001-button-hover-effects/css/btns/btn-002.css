@@ -1,8 +1,8 @@
-.btn-02 {
+.btn-002 {
   &:link,
   &:visited {
-    color: $c2;
-    border: 0.2rem solid $c2;
+    color: var(--color-secondary-2);
+    border: 0.2rem solid var(--color-secondary-2);
     border-radius: 1rem;
     text-decoration: none;
     padding: 1rem 1.5rem;
@@ -10,9 +10,9 @@
   }
 
   &:hover {
-    color: $cd2;
-    background: $c2;
-    box-shadow: 0 0 3rem $c2;
+    color: var(--color-primery-1);
+    background: var(--color-secondary-2);
+    box-shadow: 0 0 3rem var(--color-secondary-2);
     transform: scale(1.1);
   }
 

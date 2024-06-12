@@ -1,8 +1,8 @@
-.btn-04 {
+.btn-004 {
   &:link,
   &:visited {
-    color: $c4;
-    border: 0.2rem solid $c4;
+    color: var(--color-secondary-4);
+    border: 0.2rem solid var(--color-secondary-4);
     letter-spacing: 0.4rem;
     text-decoration: none;
     padding: 1rem 1.5rem;
@@ -11,9 +11,9 @@
 
   &:hover,
   &:active {
-    color: $cd2;
-    background: $c4;
-    box-shadow: 0 0 3rem $c4;
+    color: var(--color-primery-1);
+    background: var(--color-secondary-4);
+    box-shadow: 0 0 3rem var(--color-secondary-4);
     transform: skew(20deg);
   }
 }

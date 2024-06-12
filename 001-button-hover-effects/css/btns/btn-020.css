@@ -1,8 +1,8 @@
-.btn-20 {
+.btn-020 {
   &:link,
   &:visited {
-    color: $cd2;
-    background: $c0;
+    color: var(--color-primery-1);
+    background: var(--color-secondary-10);
     border: none;
     text-decoration: none;
     padding: 1rem 1.5rem;
@@ -17,8 +17,8 @@
     height: 2.4rem;
     top: -0.5rem;
     left: -0.5rem;
-    border-top: 0.2rem solid $c0;
-    border-left: 0.2rem solid $c0;
+    border-top: 0.2rem solid var(--color-secondary-10);
+    border-left: 0.2rem solid var(--color-secondary-10);
     transition: all 0.3s;
   }
 
@@ -29,8 +29,8 @@
     height: 2.4rem;
     bottom: -0.5rem;
     right: -0.5rem;
-    border-bottom: 0.2rem solid $c0;
-    border-right: 0.2rem solid $c0;
+    border-bottom: 0.2rem solid var(--color-secondary-10);
+    border-right: 0.2rem solid var(--color-secondary-10);
     transition: all 0.3s;
   }
 

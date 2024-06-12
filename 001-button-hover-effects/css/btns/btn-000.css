@@ -1,0 +1,64 @@
+.btn-000 {
+  &:link {
+    color: #fff;
+    background: red;
+    border-radius: 1rem;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: all 0.2s;
+  }
+
+  &:visited {
+    color: #fff;
+    background: green;
+  }
+
+  &:hover {
+    background: orange;
+  }
+
+  &:active {
+    background: purple;
+    letter-spacing: 0.4rem;
+  }
+
+  /* &:focus {
+    background: pink;
+  } */
+
+  &:before {
+    content: "before";
+    color: red;
+    background: #fff;
+    border-radius: 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  &:hover:before {
+    color: #fff;
+    background: red;
+  }
+
+  &:active:before {
+    color: red;
+    background: #ccc;
+  }
+
+  &:after {
+    content: "after";
+    color: blue;
+    background: #fff;
+    border-radius: 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  &:hover:after {
+    color: #fff;
+    background: blue;
+  }
+
+  &:active:after {
+    color: blue;
+    background: #ccc;
+  }
+}
