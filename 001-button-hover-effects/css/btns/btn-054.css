@@ -1,20 +1,22 @@
 .btn-054 {
   &:link,
   &:visited {
-    color: $c4;
-    border: 0.2rem solid $c4;
+    color: var(--color-secondary-4);
+    border: 0.2rem solid var(--color-secondary-4);
     text-decoration: none;
     padding: 1rem 1.5rem;
     transition: all 0.2s;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem var(--color-secondary-4);
   }
 
   &:hover {
-    transform: translateY(-0.25rem);
-    box-shadow: 0 0.8rem 1rem -0.2rem $c4;
+    color: var(--color-primery-1);
+    background: var(--color-secondary-4);
+    box-shadow: 0 0 1rem var(--color-secondary-4);
   }
 
   &:active {
-    transform: translateY(-0rem);
-    box-shadow: 0 0.4rem 0.5rem -0.1rem $c4;
+    transform: scale(0.95);
   }
 }

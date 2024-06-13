@@ -1,16 +1,29 @@
 .btn-058 {
-  &:link,
-  &:visited {
-    color: $c1;
-    text-decoration: none;
-    padding: 1rem 1.5rem;
-    transition: all 0.2s;
-    letter-spacing: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .logo-058 {
+    font-size: 5rem;
   }
 
-  &:hover,
+  &:link,
+  &:visited {
+    color: var(--color-secondary-3);
+    border: 0.3rem solid var(--color-secondary-3);
+    text-decoration: none;
+    padding: 1.5rem 1.5rem;
+    transition: all 0.2s;
+    border-radius: 100%;
+  }
+
+  &:hover {
+    color: var(--color-primery-1);
+    background: var(--color-secondary-3);
+    box-shadow: 0 0 2rem var(--color-secondary-3);
+  }
+
   &:active {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
-    text-shadow: 0.5rem 1rem 2rem rgba($c1, 0.2);
+    transform: scale(0.95);
   }
 }

@@ -1,7 +1,7 @@
 .btn-043 {
   &:link,
   &:visited {
-    color: $c3;
+    color: var(--color-secondary-3);
     text-decoration: none;
     padding: 1rem 1.5rem;
     letter-spacing: 0.2rem;
@@ -10,7 +10,7 @@
   }
 
   &:hover {
-    color: $cd2;
+    color: var(--color-primery-1);
     transition-delay: 0.4s;
   }
 
@@ -27,7 +27,7 @@
 
   &:before {
     left: 0;
-    border: 0.1rem solid $c3;
+    border: 0.1rem solid var(--color-secondary-3);
     border-left: 0;
     border-right: 0;
   }
@@ -42,7 +42,7 @@
   }
 
   &:hover:after {
-    background: $c3;
+    background: var(--color-secondary-3);
     transition-delay: 0.3s;
     width: 100%;
   }

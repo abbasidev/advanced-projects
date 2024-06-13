@@ -1,7 +1,7 @@
 .btn-041 {
   &:link,
   &:visited {
-    color: $c1;
+    color: var(--color-secondary-1);
     text-decoration: none;
     padding: 1rem 1.5rem;
     letter-spacing: 0.2rem;
@@ -10,7 +10,7 @@
   }
 
   &:hover {
-    color: $cd2;
+    color: var(--color-primery-1);
     transition-delay: 0.4s;
   }
 
@@ -27,7 +27,7 @@
 
   &:before {
     bottom: 0;
-    border: 0.1rem solid $c1;
+    border: 0.1rem solid var(--color-secondary-1);
     border-top: 0;
     border-bottom: 0;
   }
@@ -43,7 +43,7 @@
   }
 
   &:hover:after {
-    background: $c1;
+    background: var(--color-secondary-1);
     transition-delay: 0.3s;
     height: 100%;
   }

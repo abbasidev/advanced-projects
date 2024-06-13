@@ -1,15 +1,29 @@
 .btn-057 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  .logo-057 {
+    font-size: 3.5rem;
+  }
+
   &:link,
   &:visited {
-    color: $c7;
+    color: var(--color-primery-1);
+    background: var(--color-secondary-2);
+    border: 0.2rem solid var(--color-secondary-2);
     text-decoration: none;
-    padding: 1rem 1.5rem;
-    transition: all 0.3s ease-in-out;
-    letter-spacing: 0.1rem;
+    padding: 1rem 2.5rem;
+    transition: all 0.2s;
+    border-radius: 5rem;
+    box-shadow: 0 0 2rem var(--color-secondary-2);
   }
 
   &:hover {
-    letter-spacing: 0.5rem;
+    color: var(--color-secondary-2);
+    background: var(--color-primery-2);
+    box-shadow: none;
   }
 
   &:active {

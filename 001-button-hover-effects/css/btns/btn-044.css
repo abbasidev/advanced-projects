@@ -1,7 +1,7 @@
 .btn-044 {
   &:link,
   &:visited {
-    color: $c4;
+    color: var(--color-secondary-4);
     text-decoration: none;
     padding: 1rem 1.5rem;
     letter-spacing: 0.2rem;
@@ -10,7 +10,7 @@
   }
 
   &:hover {
-    color: $cd2;
+    color: var(--color-primery-1);
     transition-delay: 0.4s;
   }
 
@@ -27,7 +27,7 @@
     left: 50%;
     height: 100%;
     width: 0;
-    border: 0.1rem solid $c4;
+    border: 0.1rem solid var(--color-secondary-4);
     border-left: 0;
     border-right: 0;
   }
@@ -43,11 +43,11 @@
     left: 0;
     height: 0;
     width: 100%;
-    background: $c4;
+    background: var(--color-secondary-4);
   }
 
   &:hover:after {
-    background: $c4;
+    background: var(--color-secondary-4);
     transition-delay: 0.3s;
     top: 0;
     height: 100%;

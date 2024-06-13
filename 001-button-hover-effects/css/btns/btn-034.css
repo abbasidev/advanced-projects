@@ -2,22 +2,24 @@
   &:link,
   &:visited {
     color: var(--color-primery-1);
-    background-image: linear-gradient(
-      25deg,
-      var(--color-secondary-2) 0%,
-      var(--color-secondary-9) 100%
-    );
+    border: none;
     text-decoration: none;
-    padding: 1rem 1.5rem;
-    transition: all 0.2s;
-    border-radius: 1rem;
+    padding: 1rem 2.5rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5rem;
+    background-size: 300% 100%;
+    background-image: linear-gradient(
+      to right,
+      var(--color-secondary-8),
+      var(--color-secondary-4),
+      var(--color-secondary-4),
+      var(--color-secondary-8)
+    );
   }
 
-  &:hover {
-    letter-spacing: 0.3rem;
-  }
-
+  &:hover,
   &:active {
-    transform: scale(0.95);
+    background-position: 100% 0;
+    transition: all 0.3s ease-in-out;
   }
 }

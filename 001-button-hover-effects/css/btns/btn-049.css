@@ -1,20 +1,18 @@
 .btn-049 {
   &:link,
   &:visited {
-    color: $cl1;
-    border: none;
+    color: var(--color-secondary-9);
     text-decoration: none;
-    padding: 1rem 2.5rem;
-    transition: all 0.3s ease-in-out;
-    border-radius: 5rem;
-    background-size: 300% 100%;
-    background-image: linear-gradient(to right, $c1, $c4, $c4, $c1);
-    box-shadow: 0 0.4rem 1.5rem 0 rgba($c1, 0.75);
+    padding: 1rem 3rem;
+    transition: all 0.3s;
+    letter-spacing: 0.5rem;
+    box-shadow: 0 0 2rem var(--color-secondary-9);
   }
 
   &:hover,
   &:active {
-    background-position: 100% 0;
-    transition: all 0.3s ease-in-out;
+    color: var(--color-primery-1);
+    background: var(--color-secondary-9);
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
   }
 }

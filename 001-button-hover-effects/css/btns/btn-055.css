@@ -1,19 +1,20 @@
 .btn-055 {
   &:link,
   &:visited {
-    color: $c5;
-    border: 0.2rem solid $c5;
+    color: var(--color-primery-1);
+    border: 0.2rem solid var(--color-secondary-5);
     text-decoration: none;
     padding: 1rem 1.5rem;
     transition: all 0.2s;
     border-radius: 1rem;
-    box-shadow: 0 0 2rem $c5;
+    box-shadow: 0 0 1rem var(--color-secondary-5);
+    background: var(--color-secondary-5);
   }
 
   &:hover {
-    color: $cd2;
-    background: $c5;
-    box-shadow: 0 0 1rem $c5;
+    color: var(--color-secondary-5);
+    background: var(--color-primery-2);
+    box-shadow: 0 0 2rem var(--color-secondary-5);
   }
 
   &:active {

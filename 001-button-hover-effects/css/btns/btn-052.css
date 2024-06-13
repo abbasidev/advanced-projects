@@ -1,19 +1,18 @@
 .btn-052 {
   &:link,
   &:visited {
-    color: $cd3;
-    border: none;
+    color: var(--color-secondary-2);
     text-decoration: none;
-    padding: 1rem 2.5rem;
+    padding: 1rem 1.5rem;
     transition: all 0.3s ease-in-out;
-    border-radius: 5rem;
-    background-size: 300% 100%;
-    background-image: linear-gradient(to right, $c7, $c8, $c8, $c7);
+    letter-spacing: 0.1rem;
   }
 
-  &:hover,
+  &:hover {
+    letter-spacing: 0.5rem;
+  }
+
   &:active {
-    background-position: 100% 0;
-    transition: all 0.3s ease-in-out;
+    transform: scale(0.95);
   }
 }

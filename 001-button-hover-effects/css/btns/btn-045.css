@@ -11,20 +11,20 @@
     content: "";
     width: 50%;
     height: 100%;
-    background: $c5;
+    background: var(--color-secondary-5);
     position: absolute;
     top: 0;
     left: 0;
   }
 
   &:hover:before {
-    background: $c5;
+    background: var(--color-secondary-5);
     width: 100%;
   }
 
   span {
-    color: $cl1;
+    color: var(--color-primery-1);
     mix-blend-mode: lighten;
-    // https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode */
   }
 }

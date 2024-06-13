@@ -1,19 +1,22 @@
 .btn-060 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .logo-060 {
+    font-size: 8rem;
+  }
+
   &:link,
   &:visited {
-    color: $cd2;
-    background: $c0;
+    color: var(--color-primery-1);
     text-decoration: none;
-    padding: 1rem 3rem;
-    transition: all 0.3s;
-    letter-spacing: 0.5rem;
+    padding: 1.5rem 1.5rem;
+    transition: all 0.4s;
   }
 
   &:hover,
   &:active {
-    color: $c0;
-    background: $cd2;
-    box-shadow: 0 0 2rem $c0;
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    color: var(--color-secondary-5);
   }
 }

@@ -1,8 +1,8 @@
 .btn-047 {
   &:link,
   &:visited {
-    color: $c7;
-    border: 0.2rem solid $c7;
+    color: var(--color-secondary-7);
+    border: 0.2rem solid var(--color-secondary-7);
     text-decoration: none;
     padding: 1rem 2rem;
     border-radius: 3rem;
@@ -13,13 +13,13 @@
 
   &:hover,
   &:active {
-    border: 0.2rem solid $cd2;
-    color: $cd2;
+    border: 0.2rem solid var(--color-primery-1);
+    color: var(--color-primery-1);
     transform: scale(1.05);
   }
 
   &:after {
-    background: $c7;
+    background: var(--color-secondary-7);
     border-radius: 3rem;
     content: "";
     height: 100%;
