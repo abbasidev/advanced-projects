@@ -69,6 +69,7 @@ body {
         &:link,
         &:visited {
           display: flex;
+          line-height: 200%;
           padding: 2.4rem;
           border-radius: 2.4rem;
           background: var(--color-primery-3);
