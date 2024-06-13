@@ -4,7 +4,7 @@
   /* Colors */
   --color-primery-1: #f3f5f7;
   --color-primery-2: #6c6c6c;
-  --color-primery-3: #1e1e1e;
+  --color-primery-3: #262626;
   --color-primery-4: #181818;
   --color-primery-5: #141414;
 }
@@ -69,7 +69,7 @@ body {
         &:link,
         &:visited {
           display: flex;
-          line-height: 200%;
+          line-height: 150%;
           padding: 2.4rem;
           border-radius: 2.4rem;
           background: var(--color-primery-3);
