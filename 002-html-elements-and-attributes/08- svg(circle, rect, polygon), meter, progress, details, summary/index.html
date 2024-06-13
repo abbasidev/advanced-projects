@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Html Elements & Attributes</title>
+  </head>
+  <body>
+    <!-- ///////////////////////////////////////////////////////////////////////// -->
+    <hr />
+    svg(circle, rect, polygon)
+    <hr />
+    <svg width="100" height="100">
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke="black"
+        stroke-width="4"
+        fill="red"
+      />
+    </svg>
+    <br />
+    <svg width="200" height="100">
+      <rect
+        width="200"
+        height="100"
+        style="fill: red; stroke-width: 10; stroke: black"
+      />
+    </svg>
+    <br />
+    <svg width="300" height="200">
+      <polygon
+        points="100,10 40,198 190,78 10,78 160,198"
+        style="fill: red; stroke: black; stroke-width: 5; fill-rule: evenodd"
+      />
+    </svg>
+    <!-- ///////////////////////////////////////////////////////////////////////// -->
+    <hr />
+    meter, progress
+    <hr />
+    <label for="disk_c">Local Disk C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter>200gb usage
+    / 800gb free
+    <br />
+    <label for="disk_d">Local Disk D:</label>
+    <meter id="disk_d" value="0.6">60%</meter>600gb usage / 400gb free
+    <br />
+    <br />
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="70" max="100"></progress>70%
+    <!-- ///////////////////////////////////////////////////////////////////////// -->
+    <hr />
+    details, summary
+    <hr />
+    <details>
+      <summary>What is JavaScript?</summary>
+      <p>
+        JavaScript is a scripting or programming language that allows you to
+        implement complex features on web pages — every time a web page does
+        more than just sit there and display static information for you to look
+        at — displaying timely content updates, interactive maps, animated 2D/3D
+        graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript
+        is probably involved. It is the third layer of the layer cake of
+        standard web technologies, two of which (HTML and CSS) we have covered
+        in much more detail in other parts of the Learning Area.
+      </p>
+    </details>
+    <!-- ///////////////////////////////////////////////////////////////////////// -->
+  </body>
+</html>
