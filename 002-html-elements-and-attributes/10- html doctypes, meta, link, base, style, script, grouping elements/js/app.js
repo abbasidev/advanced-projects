@@ -1,1 +1,1 @@
-console.log("Hello world Externall");
+console.log("Externall JavaScript");
