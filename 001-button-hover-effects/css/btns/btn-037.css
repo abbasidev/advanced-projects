@@ -1,9 +1,14 @@
 .btn-037 {
   &:link,
   &:visited {
-    background-image: linear-gradient(to right, $c8 0%, $c4 51%, $c8 100%);
+    background-image: linear-gradient(
+      to right,
+      var(--color-secondary-6) 0%,
+      var(--color-secondary-3) 51%,
+      var(--color-secondary-6) 100%
+    );
     background-size: 200% auto;
-    color: $cd2;
+    color: var(--color-primery-1);
     text-decoration: none;
     padding: 1rem 1.5rem;
     transition: all 0.3s ease-in-out;
