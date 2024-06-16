@@ -8,13 +8,20 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wdth,wght@75..125,100..900&display=swap");
 
-:root {
-  /* Colors */
+[data-theme="dark"] {
   --color-primery-1: #f3f5f7;
   --color-primery-2: #6c6c6c;
   --color-primery-3: #262626;
   --color-primery-4: #181818;
   --color-primery-5: #141414;
+}
+
+[data-theme="light"] {
+  --color-primery-1: #262626;
+  --color-primery-2: #6c6c6c;
+  --color-primery-3: #dfe4e9;
+  --color-primery-5: #e9edf0;
+  --color-primery-4: #f3f5f7;
 }
 
 * {
@@ -65,8 +72,15 @@ body {
   position: fixed;
   top: 0;
 
-  img {
-    height: 4.8rem;
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    svg {
+      height: 4.8rem;
+      fill: var(--color-primery-1);
+    }
   }
 }
 
