@@ -18,10 +18,10 @@
 
 [data-theme="light"] {
   --color-primery-1: #262626;
-  --color-primery-2: #9d8b68;
-  --color-primery-3: #edeae4;
-  --color-primery-5: #f4f2ee;
-  --color-primery-4: #fbfaf8;
+  --color-primery-2: #6c6c6c;
+  --color-primery-5: #dfe4e9;
+  --color-primery-4: #e9edf0;
+  --color-primery-3: #f3f5f7;
 }
 
 * {
