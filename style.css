@@ -46,8 +46,10 @@ body {
   justify-content: center;
   background: var(--color-primery-5);
   width: 100%;
-  padding: 3.2rem 0;
+  height: 12.8rem;
   border-bottom: 0.3rem solid var(--color-primery-3);
+  position: fixed;
+  top: 0;
 
   img {
     height: 4.8rem;
@@ -60,7 +62,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 4.8rem;
-  margin: 4.8rem 4.8rem;
+  margin: 17.6rem 4.8rem;
 
   h1 {
     font-size: 4.4rem;
@@ -113,9 +115,11 @@ body {
   justify-content: center;
   background: var(--color-primery-5);
   width: 100%;
-  padding: 3.2rem 0;
+  height: 12.8rem;
   gap: 2.4rem;
   border-top: 0.3rem solid var(--color-primery-3);
+  position: fixed;
+  bottom: 0;
 
   h2 {
     font-size: 2.4rem;
@@ -173,7 +177,7 @@ body {
 
 @media (max-width: 390px) {
   .main {
-    margin: 4.8rem 2.4rem;
+    margin: 17.6rem 2.4rem;
     ul {
       li {
         a {
