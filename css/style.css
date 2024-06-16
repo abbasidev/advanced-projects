@@ -40,6 +40,20 @@ body {
   min-height: 100dvh;
 }
 
+.go-to-top {
+  display: none;
+  position: fixed;
+  bottom: 14.8rem;
+  right: 2rem;
+
+  svg {
+    width: 6.2rem;
+    background: var(--color-primery-2);
+    color: var(--color-primery-4);
+    border-radius: 50%;
+  }
+}
+
 .header {
   display: flex;
   align-items: center;
