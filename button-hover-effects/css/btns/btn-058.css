@@ -3,24 +3,29 @@
   align-items: center;
   justify-content: center;
 
-  .logo-058 {
-    font-size: 5rem;
-  }
-
-  &:link,
-  &:visited {
+  &:any-link {
     color: var(--color-secondary-3);
-    border: 0.3rem solid var(--color-secondary-3);
+    border: 0.2rem solid var(--color-secondary-3);
     text-decoration: none;
-    padding: 1.5rem 1.5rem;
-    transition: all 0.2s;
+    padding: 1.6rem 1.6rem;
     border-radius: 100%;
+    transition: all 0.2s;
+
+    svg {
+      width: 5rem;
+      fill: var(--color-secondary-3);
+      transition: all 0.2s;
+    }
   }
 
   &:hover {
     color: var(--color-primery-1);
     background: var(--color-secondary-3);
     box-shadow: 0 0 2rem var(--color-secondary-3);
+
+    svg {
+      fill: var(--color-primery-1);
+    }
   }
 
   &:active {
