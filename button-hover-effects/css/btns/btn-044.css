@@ -1,6 +1,5 @@
 .btn-044 {
-  &:link,
-  &:visited {
+  &:any-link {
     color: var(--color-secondary-4);
     text-decoration: none;
     padding: 1rem 1.5rem;

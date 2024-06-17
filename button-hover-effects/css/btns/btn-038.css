@@ -1,6 +1,5 @@
 .btn-038 {
-  &:link,
-  &:visited {
+  &:any-link {
     color: var(--color-primery-1);
     background: linear-gradient(
       25deg,

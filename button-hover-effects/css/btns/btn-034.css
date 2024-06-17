@@ -1,6 +1,5 @@
 .btn-034 {
-  &:link,
-  &:visited {
+  &:any-link {
     color: var(--color-primery-1);
     border: none;
     text-decoration: none;

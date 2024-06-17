@@ -1,6 +1,5 @@
 .btn-001 {
-  &:link,
-  &:visited {
+  &:any-link {
     color: var(--color-secondary-1);
     border: 0.2rem solid var(--color-secondary-1);
     border-radius: 1rem;

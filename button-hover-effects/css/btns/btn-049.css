@@ -1,6 +1,5 @@
 .btn-049 {
-  &:link,
-  &:visited {
+  &:any-link {
     color: var(--color-secondary-9);
     text-decoration: none;
     padding: 1rem 3rem;

@@ -1,6 +1,5 @@
 .btn-015 {
-  &:link,
-  &:visited {
+  &:any-link {
     color: var(--color-secondary-5);
     border: 0.2rem solid var(--color-secondary-5);
     text-decoration: none;

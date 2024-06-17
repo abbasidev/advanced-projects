@@ -1,16 +1,17 @@
 .btn-000 {
-  &:link {
+  /* &:link {
+  } */
+
+  /* &:visited {
+  } */
+
+  &:any-link {
     color: #fff;
     background: red;
     border-radius: 1rem;
     text-decoration: none;
     padding: 1rem 1.5rem;
     transition: all 0.2s;
-  }
-
-  &:visited {
-    color: #fff;
-    background: green;
   }
 
   &:hover {
@@ -23,7 +24,7 @@
   }
 
   /* &:focus {
-    background: pink;
+    background: green;
   } */
 
   &:before {
