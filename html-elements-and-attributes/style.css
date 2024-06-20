@@ -9,11 +9,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wdth,wght@75..125,100..900&display=swap");
 
 :root {
-  --color-primery-1: #f3f5f7;
-  --color-primery-2: #595959;
-  --color-primery-3: #262626;
-  --color-primery-4: #181818;
-  --color-primery-5: #141414;
+  --color-primery-1: #fafafa;
+  --color-primery-2: #e0e0e0;
+  --color-primery-3: #252525;
+  --color-primery-4: #1c1c1c;
+  --color-primery-5: #141414; /* base */
 }
 
 * {
@@ -44,11 +44,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 4.8rem;
-  margin: 4.8rem 4.8rem;
+  gap: 2.4rem;
+  margin: 2.4rem 2.4rem;
 
   h1 {
-    font-size: 4.4rem;
+    font-size: 2.8rem;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -57,96 +57,52 @@ body {
   ul {
     display: flex;
     flex-direction: column;
-    gap: 2.4rem;
+    gap: 1.6rem;
     list-style: none;
 
     li {
       a {
         &:any-link {
           display: flex;
-          font-size: 2.4rem;
+          font-size: 1.6rem;
           font-weight: 400;
-          min-width: 70rem;
-          max-width: 100rem;
           line-height: 150%;
-          padding: 2.4rem;
-          border-radius: 2rem;
+          width: 70rem;
+          padding: 2rem;
+          border-radius: 1.6rem;
           background: var(--color-primery-3);
-          color: var(--color-primery-1);
-          box-shadow: 0rem 0.4rem 0.8rem 0rem var(--color-primery-5);
-          -webkit-box-shadow: 0rem 0.4rem 0.8rem 0rem var(--color-primery-5);
+          color: var(--color-primery-2);
         }
       }
     }
   }
 }
 
-@media (max-width: 1260px) {
+@media (max-width: 780px) {
   html {
     font-size: 56%;
   }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 680px) {
   html {
     font-size: 50%;
   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 580px) {
   html {
     font-size: 44%;
   }
 }
 
-@media (max-width: 660px) {
-  html {
-    font-size: 38%;
-  }
-}
-
-@media (max-width: 460px) {
-  html {
-    font-size: 32%;
-  }
-}
-
-@media (max-width: 390px) {
-  .main {
-    margin: 4.8rem 2.4rem;
-    ul {
-      li {
-        a {
-          &:any-link {
-            min-width: 66rem;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 360px) {
+@media (max-width: 520px) {
   .main {
     ul {
       li {
         a {
           &:any-link {
-            min-width: 62rem;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 330px) {
-  .main {
-    ul {
-      li {
-        a {
-          &:any-link {
-            min-width: 58rem;
+            width: 90vw;
           }
         }
       }
