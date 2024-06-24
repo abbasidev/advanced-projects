@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wdth,wght@75..125,100..900&display=swap");
 
-:root {
-  --color-primery-1: #fafafa;
-  --color-primery-2: #e0e0e0;
-  --color-primery-3: #252525;
-  --color-primery-4: #1c1c1c;
-  --color-primery-5: #141414; /* base */
-}
+/* / */
 
 * {
   margin: 0;
@@ -21,8 +15,8 @@ html {
 
 body {
   font-family: "Encode Sans", sans-serif;
-  background: var(--color-primery-4);
-  color: var(--color-primery-1);
+  color: #fafafa;
+  background: linear-gradient(135deg, #e94057 0%, #f27121 100%);
   letter-spacing: 0.1rem;
   display: flex;
   flex-direction: column;
@@ -30,6 +24,8 @@ body {
   justify-content: center;
   min-height: 100dvh;
 }
+
+/* / */
 
 .main {
   display: flex;
@@ -44,6 +40,7 @@ body {
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    margin: 0 1.2rem;
   }
 
   ul {
@@ -53,26 +50,41 @@ body {
     list-style: none;
 
     li {
+      display: flex;
       a {
         &:any-link {
-          display: flex;
           font-size: 1.6rem;
           font-weight: 400;
           line-height: 150%;
           width: 70rem;
           padding: 2rem;
           border-radius: 1.6rem;
-          background: var(--color-primery-3);
-          color: var(--color-primery-2);
+          color: #fafafa;
+          background: rgba(250, 250, 250, 0.33);
+          backdrop-filter: blur(1.6rem) saturate(180%);
+          -webkit-backdrop-filter: blur(1.6rem) saturate(180%);
         }
       }
     }
   }
 }
 
+/* / */
+
 @media (max-width: 780px) {
   html {
     font-size: 56%;
+  }
+  .main {
+    ul {
+      li {
+        a {
+          &:any-link {
+            width: 90vw;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -85,19 +97,5 @@ body {
 @media (max-width: 580px) {
   html {
     font-size: 44%;
-  }
-}
-
-@media (max-width: 520px) {
-  .main {
-    ul {
-      li {
-        a {
-          &:any-link {
-            width: 90vw;
-          }
-        }
-      }
-    }
   }
 }
