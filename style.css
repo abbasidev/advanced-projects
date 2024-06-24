@@ -201,7 +201,7 @@ button {
           color: var(--color-primery-2);
         }
         span:first-child {
-          margin-left: 1.2rem;
+          margin-left: 0.8rem;
         }
       }
     }
