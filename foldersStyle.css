@@ -16,7 +16,7 @@ html {
 body {
   font-family: "Encode Sans", sans-serif;
   color: #fafafa;
-  background: linear-gradient(135deg, #e94057 0%, #f27121 100%);
+  background: linear-gradient(90deg, #e94057 0%, #f27121 100%);
   letter-spacing: 0.1rem;
   display: flex;
   flex-direction: column;
