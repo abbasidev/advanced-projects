@@ -10,13 +10,22 @@
     a
     <hr />
 
-    <!-- absolute URL -->
-    <a href="https://www.amazon.com/">Amazon</a><br />
-    <a>Amazon</a><br />
+    <!-- absolute link (external link) -->
+    <a href="https://www.amazon.com/">amazon</a><br />
+    <a>amazon</a><br />
 
-    <!-- relative URL -->
+    <!-- relative link -->
     <a href="./about.html">go to about page</a><br />
-    <a href="./about.html" target="_blank">go to about page</a>
+    <a href="./about.html" target="_blank">go to about page</a><br />
+
+    <!-- internal link -->
+    <a href="#video">go to video</a><br />
+
+    <!-- email link -->
+    <a href="mailto:example@example.com">send an email</a><br />
+
+    <!-- file link -->
+    <a href="./image.jpg">download image</a><br />
 
     <!-- / -->
     <hr />
@@ -59,7 +68,7 @@
     <hr />
 
     <!-- way 1 -->
-    <video width="400px" controls>
+    <video width="400px" controls id="video">
       <source src="./video.mp4" />
     </video>
     <audio controls>
