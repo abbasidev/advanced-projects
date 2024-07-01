@@ -2,6 +2,15 @@
 
 /* / */
 
+:root {
+  --color-primery-1: #fafafa;
+  --color-primery-2: #141e30;
+  --color-primery-3: #243b55;
+  --color-primery-4: rgba(250, 250, 250, 0.16);
+}
+
+/* / */
+
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +24,12 @@ html {
 
 body {
   font-family: "Encode Sans", sans-serif;
-  color: #fafafa;
-  background: linear-gradient(90deg, #e94057 0%, #f27121 100%);
+  color: var(--color-primery-1);
+  background: linear-gradient(
+    90deg,
+    var(--color-primery-2) 0%,
+    var(--color-primery-3) 100%
+  );
   letter-spacing: 0.1rem;
   display: flex;
   flex-direction: column;
@@ -59,8 +72,8 @@ body {
           width: 70rem;
           padding: 2rem;
           border-radius: 1.6rem;
-          color: #fafafa;
-          background: rgba(250, 250, 250, 0.33);
+          color: var(--color-primery-1);
+          background: var(--color-primery-4);
           backdrop-filter: blur(1.6rem) saturate(180%);
           -webkit-backdrop-filter: blur(1.6rem) saturate(180%);
         }
