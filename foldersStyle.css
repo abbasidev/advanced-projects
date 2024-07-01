@@ -69,8 +69,6 @@ body {
           border-radius: 1.6rem;
           color: var(--color-primery-1);
           background: var(--color-primery-3);
-          backdrop-filter: blur(1.6rem) saturate(180%);
-          -webkit-backdrop-filter: blur(1.6rem) saturate(180%);
         }
       }
     }
