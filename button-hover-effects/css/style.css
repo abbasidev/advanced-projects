@@ -3,12 +3,24 @@
 /* 
 //// run in powershell
 for($i=0;$i -lt 10;$i++){ni btn-00$i".css"};
-for($i=10;$i -lt 100;$i++){ni btn-0$i".css"};
+or
+for($i=0;$i -le 9;$i++){ni btn-00$i".css"};
+
+for($i=10;$i -lt 61;$i++){ni btn-0$i".css"};
+or
+for($i=10;$i -le 60;$i++){ni btn-0$i".css"};
 */
 
-/*
-//// run in html - copy in css - delete <div> and </div> 
-div{@import url(./btns/btn-$$$.css);}*100
+/* 
+//// run in powershell
+for($i=0;$i -lt 10;$i++){write-host "@import url(./btns/btn-00$i.css);"};
+or
+for($i=0;$i -le 9;$i++){write-host "@import url(./btns/btn-00$i.css);"};
+
+
+for($i=10;$i -lt 61;$i++){write-host "@import url(./btns/btn-0$i.css);"};
+or
+for($i=10;$i -le 60;$i++){write-host "@import url(./btns/btn-0$i.css);"};
 */
 
 @import url(./btns/btn-000.css);
